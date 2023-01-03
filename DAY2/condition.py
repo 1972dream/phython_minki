@@ -23,26 +23,34 @@
 #     print(i + 1)
 # for i in range(1, 11):
 #     print(i)
+#
+#
 # for i in range(10):
 #     if i % 2 == 1:
 #         print(i)
-# for i in range(11):
+#
+#
+#  for i in range(11):
 #     if i % 2 == 0:
 #         print(i)
-# sum = 0
+#
+#
+#  sum = 0
 # for i in range(10, 21):
 #     if i % 3 == 0:
 #         sum += i
 # print(sum)
-# sum = 0
+#
+#  sum = 0
 # suii = 0
 # for i in range(1, 101):
 #     if i % 2 == 0:
 #         sum += i
 #     elif i % 2 == 1:
 #         suii += i
-# print(sum - suii)
-
+#
+#  print(sum - suii)
+# 공배수
 # for i in range(50, 81):
 #     if i % 3 == 0:
 #         if i % 4 == 0:
@@ -63,3 +71,14 @@
 #     for i in range(0,10):
 # 3 범위,증감(숫자3)
 #     for i in range(0,10,1):
+
+# @1
+# sum = 0
+# for i in range(1, 101):
+#     sum += i
+# print(sum)
+
+# @2
+# for i in range(1, 101):
+#     if i % 3 == 0 and i % 4 == 0 and i % 5 == 0:
+#         print(i)
