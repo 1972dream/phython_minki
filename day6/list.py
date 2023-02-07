@@ -7,7 +7,7 @@
 <특1>
 리스트 안의 요소는 대괄호로 접근할수있음(indexing)
 왼쪽부터 0번째임
-오른쪽부터 -1번쨰임
+오른쪽부터 -1번쨰임                   
 <특2>
 빈 리스트 만들수있음요
 ex) a=[]
@@ -26,7 +26,11 @@ ex) a=[]
      내림차순=4321
 [2,4,1,3]
 <특7>
-내림차순 정렬할 때는 reverse 메소드 사용 
+반대로 정렬 reverse 메소드 사용 
+<응용>
+sort()
+reverse()
+=내림차순
 """
 # a = 10
 # b = "민기"
@@ -64,15 +68,63 @@ ex) a=[]
 # print(진우)
 # 진우.remove("뺀질")
 # print(진우)
-num = [2, 4, 1, 3]
-print(num)
-num.sort()
+# num = [2, 4, 1, 3]
 # print(num)
-fruit = ["watermelon", "orange", "apple", "banana"]
-print(fruit)
-fruit.sort()
+# num.sort()
+# print(num)
+# fruit = ["watermelon", "orange", "apple", "banana"]
 # print(fruit)
-num.reverse()
-print(num)
-fruit.reverse()
-print(fruit)
+# fruit.sort()
+# print(fruit)
+# num.reverse()
+# print(num)
+# fruit.reverse()
+# print(fruit)
+
+# e = [1, 2, 3, 4]
+# e.remove(3)
+# print(e)
+# f = [2, 3, 1, 4]
+# f.sort()
+# print(f)
+
+# g = [1, 3, 2, 4]
+# g.reverse()
+# print(g)
+# g = [1, 3, 2, 4]
+# g.sort()
+# g.reverse()
+# print(g)
+
+# q1 4의배수가 아닌 수들을 내림차순 1~10
+# 민기 = []
+# for i in range(1, 11):
+#     if i % 4 != 0:
+#         민기.append(i)
+# 민기.reverse()
+# print(민기)
+# q2 구구단(3)
+
+
+# def 구구단(num):
+#     민기 = []
+#     for i in range(1, 10):
+#         민기.append(num * i)
+#     민기.reverse()
+#     print(민기)
+
+
+# 구구단(7)
+# q3 짝수(3)
+def 짝수(num):
+    민기 = []
+    for i in range(1, num * 2 + 1):
+        if i % 2 == 0:
+            민기.append(i)
+    민기.reverse()
+    print(민기)
+
+
+짝수(3)
+짝수(6)
+짝수(4)
